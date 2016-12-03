@@ -11,7 +11,7 @@
     tools:context="com.example.aron.helloworld.CalendarActivity">
 
     <TextView
-        android:text="December"
+        android:text="December 2016"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="36sp"
@@ -57,52 +57,52 @@
 
         <Button
             android:text="1"
-            android:id="@+id/day5"
+            android:id="@+id/day1"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="2"
-            android:id="@+id/day6"
+            android:id="@+id/day2"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="3"
-            android:id="@+id/day7"
+            android:id="@+id/day3"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="4"
-            android:id="@+id/day1"
+            android:id="@+id/day4"
             android:layout_width="50dp" />
 
         <Button
             android:text="5"
-            android:id="@+id/button91"
+            android:id="@+id/day5"
             android:layout_width="50dp" />
 
         <Button
             android:text="6"
-            android:id="@+id/button6"
+            android:id="@+id/day6"
             android:layout_width="50dp" />
 
         <Button
             android:text="7"
-            android:id="@+id/button4"
+            android:id="@+id/day7"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="8"
-            android:id="@+id/button8"
+            android:id="@+id/day8"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="9"
-            android:id="@+id/button47"
+            android:id="@+id/day9"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
@@ -114,117 +114,116 @@
 
         <Button
             android:text="11"
-            android:id="@+id/day12"
+            android:id="@+id/day11"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="12"
-            android:id="@+id/day13"
+            android:id="@+id/day12"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="13"
-            android:id="@+id/day14"
+            android:id="@+id/day13"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="14"
-            android:id="@+id/day15"
+            android:id="@+id/day14"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="15"
-            android:id="@+id/day16"
+            android:id="@+id/day15"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="16"
-            android:id="@+id/day17"
+            android:id="@+id/day16"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
         <Button
             android:text="17"
-            android:id="@+id/day18"
+            android:id="@+id/day17"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="18"
-            android:id="@+id/day19"
+            android:id="@+id/day18"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="19"
-            android:id="@+id/day20"
+            android:id="@+id/day19"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="20"
-            android:id="@+id/day21"
+            android:id="@+id/day20"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="21"
-            android:id="@+id/day22"
+            android:id="@+id/day21"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="22"
-            android:id="@+id/day23"
+            android:id="@+id/day22"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="23"
-            android:id="@+id/day24"
+            android:id="@+id/day23"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="24"
-            android:id="@+id/day25"
+            android:id="@+id/day24"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="25"
-            android:id="@+id/day26"
+            android:id="@+id/day25"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="26"
-            android:id="@+id/day27"
+            android:id="@+id/day26"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="27"
-            android:id="@+id/day28"
+            android:id="@+id/day27"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="28"
-            android:id="@+id/day29"
+            android:id="@+id/day28"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="29"
-            android:id="@+id/day30"
+            android:id="@+id/day29"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="30"
-            android:id="@+id/day31"
+            android:id="@+id/day30"
             android:layout_width="50dp"
             android:layout_height="50dp" />
         <Button
             android:text="31"
-            android:id="@+id/day32"
+            android:id="@+id/day31"
             android:layout_width="50dp"
             android:layout_height="50dp" />
 
     </GridLayout>
-
 
 </RelativeLayout>
