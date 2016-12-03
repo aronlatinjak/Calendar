@@ -10,84 +10,221 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.aron.helloworld.CalendarActivity">
 
-    <Button
-        android:text="1"
-        android:layout_marginLeft="0dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="30dp"
-        android:id="@+id/day1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"/>
-
-    <Button
-        android:text="2"
-        android:id="@+id/day2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/day1"
-        android:layout_toEndOf="@+id/day1" />
-
-    <Button
-        android:text="3"
-        android:id="@+id/day3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/day2"
-        android:layout_toEndOf="@+id/day2" />
-
-    <Button
-        android:text="4"
-        android:id="@+id/day4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_toRightOf="@+id/day3"
-        android:layout_toEndOf="@+id/day3"
-        android:layout_alignBottom="@+id/day3" />
-
-    <Button
-        android:text="5"
-        android:id="@+id/day5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/day4"
-        android:layout_toEndOf="@+id/day4" />
-
-    <Button
-        android:text="6"
-        android:id="@+id/day6"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/day5"
-        android:layout_toEndOf="@+id/day5" />
-
-    <Button
-        android:text="7"
-        android:id="@+id/day7"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/day6"
-        android:layout_toEndOf="@+id/day6" />
-
     <TextView
         android:text="December"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toTopOf="@+id/day4"
-        android:textSize="18sp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:columnCount="7"
+        android:rowCount="5"
+        android:layout_below="@+id/textView2">
+
+        <Button
+            android:text=""
+            android:id="@+id/blank1"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text=""
+            android:id="@+id/blank2"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text=""
+            android:id="@+id/blank3"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text=""
+            android:id="@+id/blank4"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="1"
+            android:id="@+id/day5"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="2"
+            android:id="@+id/day6"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="3"
+            android:id="@+id/day7"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="4"
+            android:id="@+id/day1"
+            android:layout_width="50dp" />
+
+        <Button
+            android:text="5"
+            android:id="@+id/button91"
+            android:layout_width="50dp" />
+
+        <Button
+            android:text="6"
+            android:id="@+id/button6"
+            android:layout_width="50dp" />
+
+        <Button
+            android:text="7"
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="8"
+            android:id="@+id/button8"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="9"
+            android:id="@+id/button47"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="10"
+            android:id="@+id/day10"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="11"
+            android:id="@+id/day12"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="12"
+            android:id="@+id/day13"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="13"
+            android:id="@+id/day14"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="14"
+            android:id="@+id/day15"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="15"
+            android:id="@+id/day16"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="16"
+            android:id="@+id/day17"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="17"
+            android:id="@+id/day18"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="18"
+            android:id="@+id/day19"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="19"
+            android:id="@+id/day20"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="20"
+            android:id="@+id/day21"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="21"
+            android:id="@+id/day22"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="22"
+            android:id="@+id/day23"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="23"
+            android:id="@+id/day24"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="24"
+            android:id="@+id/day25"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="25"
+            android:id="@+id/day26"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="26"
+            android:id="@+id/day27"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="27"
+            android:id="@+id/day28"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="28"
+            android:id="@+id/day29"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="29"
+            android:id="@+id/day30"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="30"
+            android:id="@+id/day31"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <Button
+            android:text="31"
+            android:id="@+id/day32"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </GridLayout>
 
 
 </RelativeLayout>
